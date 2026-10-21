@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080914">
+  <title>SAMUEL.EXE — Una aventura contigo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">S.</span> SAMUEL<span class="blue">.EXE</span></a>
+    <span class="status"><i></i> EXPERIENCIA PERSONALIZADA</span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p class="eyebrow">UN PROYECTO HECHO CON AMOR <span>♥</span></p>
+      <h1>Hola, <span class="gradient">Samuel.</span></h1>
+      <p class="hero-copy">Hay aventuras que no se programan…<br>simplemente empiezan cuando conoces a alguien especial.</p>
+      <button class="primary" id="startBtn">Iniciar nuestra aventura <span>↗</span></button>
+      <div class="scroll-hint">DESLIZA PARA DESCUBRIR <span>↓</span></div>
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+    </section>
+
+    <section class="panel intro" id="aventura">
+      <div class="section-label">01 / ARCHIVO ESPECIAL</div>
+      <div class="terminal"><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-title">samuel.exe — archivo_del_corazón.txt</span></div>
+      <p class="code-line"><span class="code-purple">const</span> motivo = <span class="code-green">"Tú"</span>;</p>
+      <h2>Si nuestra historia fuera un videojuego…</h2>
+      <p class="muted">Tú serías mi personaje favorito, mi misión inesperada y esa aventura que siempre elegiría volver a jugar.</p>
+      <p class="muted">No existe un código perfecto para explicar lo que significas para mí. Pero sí quise crear este pequeño universo para recordarte lo especial que eres.</p>
+    </section>
+
+    <section class="memories" id="recuerdos">
+      <div class="section-label">02 / NUESTROS RECUERDOS</div>
+      <h2>Pequeños momentos.<br><span class="gradient">Una historia enorme.</span></h2>
+      <p class="muted">Este espacio es para guardar algunas de nuestras memorias favoritas.</p>
+      <div class="gallery">
+        <div class="photo-card placeholder"><div class="photo-icon">✦</div><strong>Momento favorito</strong><span>Reemplaza esta tarjeta con una foto nuestra</span></div>
+        <div class="photo-card placeholder"><div class="photo-icon">♡</div><strong>Una sonrisa tuya</strong><span>Un recuerdo que siempre quiero conservar</span></div>
+        <div class="photo-card placeholder"><div class="photo-icon">⌁</div><strong>Nuestra aventura</strong><span>Y todos los capítulos que faltan</span></div>
+      </div>
+      <p class="tiny-note">Más adelante cambiaremos estas tarjetas por tus fotos reales.</p>
+    </section>
+
+    <section class="letter panel" id="carta">
+      <div class="section-label">03 / MENSAJE DESBLOQUEADO</div>
+      <div class="letter-icon">♥</div>
+      <h2>Para ti, Samuel</h2>
+      <p class="letter-text">Hoy quería regalarte algo diferente: un pequeño lugar en internet que llevara un poquito de todo lo que siento por ti.</p>
+      <p class="letter-text">Admiro tu forma de ser, tu mente curiosa y esa manera tan tuya de encontrar mundos enteros en la tecnología. Si pudiera pedir algo para esta nueva vuelta al sol, sería que la vida te regale salud, tranquilidad, motivos para sonreír y muchísimas aventuras bonitas.</p>
+      <p class="letter-text">Y ojalá me permita seguir a tu lado, creando recuerdos, celebrando tus logros y acompañándote también en los días difíciles. No todo tiene que ser perfecto para ser valioso; a veces lo más bonito es seguir construyendo, paso a paso.</p>
+      <p class="signature">Con todo mi cariño, <span>tu persona favorita ♥</span></p>
+    </section>
+
+    <section class="finale" id="final">
+      <div class="section-label">04 / NIVEL ESPECIAL</div>
+      <div class="lock">✧</div>
+      <h2>La mejor parte<br>todavía está por escribirse.</h2>
+      <p class="muted">Feliz cumpleaños, Samuel. Que este nuevo capítulo venga lleno de luz, fuerza y sueños que se hagan realidad.</p>
+      <button class="secondary" id="surpriseBtn">Abrir mensaje secreto <span>♡</span></button>
+      <p id="secretMessage" class="secret-message" hidden>Si pudiera volver a elegir una aventura, volvería a elegir una que me llevara a ti. 💙</p>
+    </section>
+  </main>
+
+  <footer><span class="brand-mark small">S.</span><p>Hecho especialmente para Samuel, con amor y un poquito de código.</p><span class="footer-code">BUILD 01. ♥</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
